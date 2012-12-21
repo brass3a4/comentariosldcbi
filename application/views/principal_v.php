@@ -9,10 +9,10 @@
 
 <link rel="stylesheet" href="<?=base_url(); ?>statics/css/core/foundation.min.css">
 <script src="<?=base_url(); ?>statics/js/fundation/foundation.min.js"></script>
-<script src="<?=base_url(); ?>statics/js/foundation/modernizr.foundation.js" ></script>
-<script src="<?=base_url(); ?>statics/js/foundation/app.js" ></script>
-<script src="<?=base_url(); ?>statics/js/foundation/*.js" ></script>
+<script src="<?=base_url(); ?>statics/js/fundation/modernizr.foundation.js" ></script>
+<script src="<?=base_url(); ?>statics/js/fundation/app.js" ></script>
 <link rel="stylesheet" href="<?=base_url(); ?>statics/css/comentario.css">
+
 	</head>
 
 	<body>
@@ -31,26 +31,16 @@
 			<div class="two columns"></div>
 			
 			<div class="eight columns">
+
+				<dl class="tabs four-up">
+				  <dd class="active"><a href="#evenTab1">Even Tab 1</a></dd>
+				  <dd><a href="#evenTab2">Even Tab 2</a></dd>
+				  <dd><a href="#evenTab3">Even Tab 3</a></dd>
+				  <dd><a href="#evenTab3">Even Tab 4</a></dd>
+				</dl>
 				
 				
 
-
-<dl class="tabs contained">
-  <dt>Title 1</dt>
-  <dd class="active"><a href="#simpleContained1">Simple Tab 1</a></dd>
-  <dd class="hide-for-small"><a href="#simpleContained2">Simple Tab 2</a></dd>
-  <dt class="hide-for-small">Title 1</dt>
-  <dd class="hide-for-small"><a href="#simpleContained3">Simple Tab 3</a></dd>
-</dl>
-<ul class="tabs-content contained">
-  <li class="active" id="simpleContained1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
-  <li id="simpleContained2Tab">This is simple tab 2s content. Now you see it!</li>
-  <li id="simpleContained3Tab">This is simple tab 3s content.</li>
-</ul>
-
-
-
-				
 			</div>
 			
 			<div class="two columns"></div>
