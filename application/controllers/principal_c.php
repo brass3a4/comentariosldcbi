@@ -9,9 +9,19 @@ class Principal_c extends CI_Controller
             $this->load->helper(array('html', 'url'));
        }
 	
-	function index() 
+	function muestraPrincipal() 
 	{	
 			$this->load->view('principal_v',NULL);
+	}
+	
+	function enviaDatos($id)
+	{
+			echo "hola";
+			echo $id;
+			foreach($_POST as $campo)
+			{
+					print_r ($campo);		
+			}
 	}
 
 }

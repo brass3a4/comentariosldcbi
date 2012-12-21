@@ -17,6 +17,8 @@
 
 	<body>
 		
+		<form method="post" action='<?=base_url(); ?>index.php/principal_c/enviaDatos/1' accept-charset="utf-8">
+		
 		<div class="twelve columns espacioSuperior">
 			<div class="two columns "></div>
 			
@@ -53,10 +55,44 @@
 				  <dd class="hide-for-small"><a href="#simple4">Otros</a></dd>
 				</dl>
 				<ul class="tabs-content">
-				  <li class="active" id="simple1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
-				  <li id="simple2Tab">This is simple tab 2s content. Now you see it!</li>
-				  <li id="simple3Tab">This is simple tab 3s content.</li>
-				  <li id="simple4Tab">This is simple tab 4s content.</li>
+				  <li class="active" id="simple1Tab">
+				  <legend><h5>Comentario</h5></legend>
+			  		<form>
+				  			<div class="four columns">
+					  			<label>Escriba aquí su correo</label>
+					  			<input name="correo" type="text"/>
+							</div>
+				  			<div class="four columns selectCorreo">
+				  				<select name="correo2">
+				  					<option value="1">@xanum.uam.mx</option>
+				  					<option value="2">@correo.uam.mx</option>
+				  				</select>
+				  				
+				  			</div>
+				  			<div class="four columns"></div>
+				  		
+					  		<div class="twelve columns">	
+					  			<label>Escriba aquí su comentario</label>
+					  			<textarea id="texto" /></textarea>
+					  		</div>
+					  		
+					  		<div class="twelve columns">
+					  			<input type="submit" class="button" value="Enviar" />
+					  		</div>
+			  		</form>
+				  </li>
+				  <li id="simple2Tab">
+				  <legend><h5>Comentario</h5></legend>
+			  		
+				  </li>
+				  <li id="simple3Tab">
+				  <legend><h5>Comentario</h5></legend>
+			  		
+				  </li>
+				  <li id="simple4Tab">
+				  <legend><h5>Comentario</h5></legend>
+			  		
+				  </li>
 				</ul>
 			</div>
 			
