@@ -32,15 +32,32 @@
 			
 			<div class="eight columns">
 
-				<dl class="tabs four-up">
-				  <dd class="active"><a href="#evenTab1">Even Tab 1</a></dd>
-				  <dd><a href="#evenTab2">Even Tab 2</a></dd>
-				  <dd><a href="#evenTab3">Even Tab 3</a></dd>
-				  <dd><a href="#evenTab3">Even Tab 4</a></dd>
-				</dl>
+				<h4>Elije un asunto:</h4>
 				
 				
 
+			</div>
+			
+			<div class="two columns"></div>
+			
+		</div>
+		
+		<div class="twelve columns espacioSuperior">
+			<div class="two columns"></div>
+			
+			<div class="eight columns">
+				<dl class="tabs four-up">
+				  <dd class="active"><a href="#simple1">Servicio</a></dd>
+				  <dd><a href="#simple2">Software</a></dd>
+				  <dd><a href="#simple3">Acceso a red</a></dd>
+				  <dd class="hide-for-small"><a href="#simple4">Otros</a></dd>
+				</dl>
+				<ul class="tabs-content">
+				  <li class="active" id="simple1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
+				  <li id="simple2Tab">This is simple tab 2s content. Now you see it!</li>
+				  <li id="simple3Tab">This is simple tab 3s content.</li>
+				  <li id="simple4Tab">This is simple tab 4s content.</li>
+				</ul>
 			</div>
 			
 			<div class="two columns"></div>

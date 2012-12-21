@@ -37,7 +37,7 @@
 				  		
 					  		<div class="twelve columns">	
 					  			<label>Escriba aquí su comentario</label>
-					  			<input type="text"/>
+					  			<textarea /></textarea>
 					  		</div>
 					  		
 					  		<div class="twelve columns">
