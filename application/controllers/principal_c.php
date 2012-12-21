@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Comentario_c extends CI_Controller
+class Principal_c extends CI_Controller
 {
 
 	public function __construct(){
@@ -11,7 +11,7 @@ class Comentario_c extends CI_Controller
 	
 	function index() 
 	{	
-			$this->load->view('comentario_v',NULL);
+			$this->load->view('principal_v',NULL);
 	}
 
 }
