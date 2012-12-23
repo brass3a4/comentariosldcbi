@@ -63,7 +63,7 @@
 					  			<input name="correo" type="text"/>
 							</div>
 				  			<div class="four columns selectCorreo">
-				  				<select name="correo2">
+				  				<select name="AgregoCorreo">
 				  					<option value="1">@xanum.uam.mx</option>
 				  					<option value="2">@correo.uam.mx</option>
 				  				</select>
