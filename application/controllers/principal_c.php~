@@ -1,0 +1,32 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Principal_c extends CI_Controller
+{
+
+	public function __construct(){
+           
+          parent::__construct();
+          
+            $this->load->helper(array('html', 'url'));
+			$this->load->library('email');
+       }
+	
+	function muestraPrincipal() 
+	{	
+			$this->load->view('principal_v',NULL);
+	}
+	
+	function enviaDatos($id)
+	{
+			echo "hola";
+			echo $id;
+			foreach($_POST as $campo)
+			{
+					print_r ($campo);		
+			}
+	}
+
+	funtion enviaMail($asunto)
+
+}
+
+?>

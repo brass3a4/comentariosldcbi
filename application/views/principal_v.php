@@ -17,7 +17,7 @@
 
 	<body>
 		
-		<form method="post" action='<?=base_url(); ?>index.php/principal_c/enviaDatos/1' accept-charset="utf-8">
+		<form method="post" action='<?=base_url(); ?>index.php/principal_c/enviaMail/1' accept-charset="utf-8">
 		
 		<div class="twelve columns espacioSuperior">
 			<div class="two columns "></div>
@@ -63,7 +63,7 @@
 					  			<input name="correo" type="text"/>
 							</div>
 				  			<div class="four columns selectCorreo">
-				  				<select name="AgregoCorreo">
+				  				<select name="tipoCorreo">
 				  					<option value="1">@xanum.uam.mx</option>
 				  					<option value="2">@correo.uam.mx</option>
 				  				</select>
@@ -73,7 +73,7 @@
 				  		
 					  		<div class="twelve columns">	
 					  			<label>Escriba aquí su comentario</label>
-					  			<textarea id="texto" /></textarea>
+					  			<textarea name="comentario" /></textarea>
 					  		</div>
 					  		
 					  		<div class="twelve columns">
