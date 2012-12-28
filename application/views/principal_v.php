@@ -19,17 +19,17 @@
 		
 		<form method="post" action='<?=base_url(); ?>index.php/principal_c/enviaMail/' accept-charset="utf-8">
 		
-		<div class="twelve columns espacioSuperior">
+		<div  class="twelve columns espacioSuperior">
 			<div class="two columns "></div>
 			
-			<div class="eight columns titulo">
+			<div class="eight columns titulo espacioSuperior espacioInferior">
 				Comentarios y sugerencias hacia los Laboratorios de Docencia CBI			
 			</div>
 			<div class="two columns"></div>
 			
 		</div>
 		
-		<div class="twelve columns espacioSuperior">
+		<div class="twelve columns espacioSuperior ">
 			<div class="two columns"></div>
 			
 			<div class="eight columns">
@@ -47,7 +47,7 @@
 		<div class="twelve columns espacioSuperior">
 			<div class="two columns"></div>
 			
-			<div class="eight columns">
+			<div class="eight columns borde espacioSuperior" >
 				
 				
 				  
@@ -83,7 +83,7 @@
 					  			<textarea name="comentario" required/></textarea>
 					  		</div>
 					  		
-					  		<div class="twelve columns">
+					  		<div class="twelve columns espacioInferior">
 					  			<input type="submit" class="button" value="Enviar" />
 					  		</div>
 			  		</form>

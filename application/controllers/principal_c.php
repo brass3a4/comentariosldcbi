@@ -30,7 +30,8 @@ class Principal_c extends CI_Controller
 				$tipoAsunto= 'Otros';
 				break;
 			default:
-				$tipoAsunto= 'No se especifico';
+				$tipoAsunto= 'No se especifico tipo de asunto';
+				
 				break;
 		} 
 		

@@ -1,5 +1,5 @@
 .titulo{
-	background: #929292;
+	background: #2BA6CB;
 	text-align: center;
 	font-size: 30px;
 	
@@ -9,6 +9,15 @@
 	padding-top: 10px;
 }
 
+.espacioInferior{
+	padding-bottom: 10px;
+}
+
 .selectCorreo{
 	padding-top: 17px;
+}
+
+.borde
+{
+	border:1px solid #CCCCCC;
 }
