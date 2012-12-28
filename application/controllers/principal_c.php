@@ -10,6 +10,10 @@ class Principal_c extends CI_Controller
 			$this->load->library('email');
        }
 	
+	function index(){
+		$this->muestraPrincipal();
+	}
+	
 	function muestraPrincipal() 
 	{	
 			$this->load->view('principal_v',NULL);
