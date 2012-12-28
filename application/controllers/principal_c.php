@@ -32,7 +32,7 @@ class Principal_c extends CI_Controller
 				$tipoAsunto= 'Servicio';
 				break;
 			case '2':
-				$tipoAsunto= 'software';
+				$tipoAsunto= 'Software';
 				break;
 			case '3':
 				$tipoAsunto= 'Acceso a Red';
@@ -52,9 +52,9 @@ class Principal_c extends CI_Controller
 		$config_email['send_multipart'] = FALSE;  
 		$this->email->initialize($config);
 		if($_POST['tipoCorreo'] == 1){
-			$this->email->from($_POST['correo'].'@xanum.uam.mx', 'LDCBI');
+			$this->email->from($_POST['correo'].'@xanum.uam.mx', 'Servicio de comentarios para LDCBI');
 		}else{
-			$this->email->from($_POST['correo'].'@correo.uam.mx', 'LDCBI');
+			$this->email->from($_POST['correo'].'@correo.uam.mx', 'Servicio de comentarios para LDCBI');
 		}	
 		$this->email->to('brass3a4@gmail.com');
 		$this->email->subject($tipoAsunto);
@@ -64,7 +64,7 @@ class Principal_c extends CI_Controller
 		echo "<script>
 		alert('Tu comentario se ha enviado a LDCBI')
 		window.close()</script>";
-		echo $this->email->print_debugger();
+		//echo $this->email->print_debugger();
 	}
 
 }

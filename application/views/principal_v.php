@@ -55,6 +55,7 @@
 				  	<label >Asunto:</label>
 				  	<div class=" selectAsunto ">
 		  				<select name="tipoAsunto">
+		  					<option value="0"></option>
 		  					<option value="1">Servicio</option>
 		  					<option value="2">Software</option>
 		  					<option value="3">Acceso a red</option>
