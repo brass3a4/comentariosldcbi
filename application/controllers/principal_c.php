@@ -15,17 +15,6 @@ class Principal_c extends CI_Controller
 			$this->load->view('principal_v',NULL);
 	}
 	
-	function enviaDatos($id)
-	{
-			
-			foreach($_POST as $key =>$campo)
-			{
-					print_r ($key);		
-			}
-			
-			print_r($_POST['comentario']);
-	}
-
 	function enviaMail(){
 		switch ($_POST['tipoAsunto']) {
 			case '1':
@@ -65,6 +54,8 @@ class Principal_c extends CI_Controller
 		alert('Tu comentario se ha enviado a LDCBI')
 		window.close()</script>";
 		//echo $this->email->print_debugger();
+		
+		$this->muestraPrincipal();
 	}
 
 }
