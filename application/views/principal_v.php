@@ -17,7 +17,7 @@
 
 	<body>
 		
-		<form method="post"  accept-charset="utf-8">
+		<form method="post" action='<?=base_url(); ?>index.php/principal_c/enviaMail/' accept-charset="utf-8">
 		
 		<div class="twelve columns espacioSuperior">
 			<div class="two columns "></div>
@@ -33,6 +33,10 @@
 			<div class="two columns"></div>
 			
 			<div class="eight columns">
+
+				
+				
+				
 
 			</div>
 			
