@@ -26,8 +26,8 @@ class Principal_c extends CI_Controller
 			print_r($_POST['comentario']);
 	}
 
-	function enviaMail($asunto){
-		switch ($asunto) {
+	function enviaMail(){
+		switch ($_POST['tipoAsunto']) {
 			case '1':
 				$tipoAsunto= 'Servicio';
 				break;
