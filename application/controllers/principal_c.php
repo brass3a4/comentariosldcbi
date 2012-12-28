@@ -47,7 +47,7 @@ class Principal_c extends CI_Controller
 		}	
 		$this->email->to('brass3a4@gmail.com');
 		$this->email->subject($tipoAsunto);
-		$msj='El mensaje a LDCB es '.$_POST['comentario'];			
+		$msj='El mensaje al servicio de comentarios para LDCBI es: '.$_POST['comentario'];			
 		$this->email->message($msj);				
 		$this->email->send();
 		echo "<script>

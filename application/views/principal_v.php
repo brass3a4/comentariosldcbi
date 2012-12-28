@@ -55,7 +55,6 @@
 				  	<label >Asunto:</label>
 				  	<div class=" selectAsunto ">
 		  				<select name="tipoAsunto">
-		  					<option value="0"></option>
 		  					<option value="1">Servicio</option>
 		  					<option value="2">Software</option>
 		  					<option value="3">Acceso a red</option>
@@ -68,7 +67,7 @@
 			  		<form>
 				  			<div class="four columns">
 					  			<label>Escriba aquí su correo</label>
-					  			<input name="correo" type="text"/>
+					  			<input name="correo" type="text" required/>
 							</div>
 				  			<div class="four columns selectCorreo">
 				  				<select name="tipoCorreo">
@@ -81,7 +80,7 @@
 				  		
 					  		<div class="twelve columns">	
 					  			<label>Escriba aquí su comentario</label>
-					  			<textarea name="comentario" /></textarea>
+					  			<textarea name="comentario" required/></textarea>
 					  		</div>
 					  		
 					  		<div class="twelve columns">
